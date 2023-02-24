@@ -1,0 +1,115 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+
+.main{
+    /* background-color:crimson; */
+    min-height:100vh;
+    width:100vw;
+    background-color: #1d3557;
+}
+.heading,.input-field, .display-field{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:20vh;
+    /* border:1px solid black; */
+}
+
+.heading{
+    font-size:3em;
+    font-weight:300;
+    color:#a8dadc;
+}
+
+form{
+    width:300px;
+    margin:20px;
+    padding:30px 10px;
+    display:flex;
+    flex-direction: column;
+    /* border:1px solid red; */
+    border-radius:10px;
+    background-color: #457b9d;
+}
+form > label{
+    width:90%;
+    margin-left:8%;
+    margin-top:10px;
+    font-weight:400;
+    letter-spacing: 1px;
+    color:#a8dadc;
+}
+form>input::placeholder{
+    color:#457b9d;
+}
+form > input{
+    font-weight:300;
+    letter-spacing: 1px;
+    width:90%;
+    color:#457b9d;
+    background-color:#a8dadc;
+    margin:10px 5%;
+    padding: 5px 10px;
+    /* border-bottom:2px solid #f1faee; */
+    outline:none;
+}
+input:active{
+    color:#457b9d;
+}
+
+
+.submit{
+    width: 90%;
+    margin:10px 0 0px 5%;
+    padding: 5px 0;  
+    /* border:1px solid green; */
+    background:#1d3557;
+    color:#a8dadc;
+}
+.display-field{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    padding:10px 0;    
+}
+.student{
+    display:flex;
+    justify-content:space-between;
+    margin:5px 5px;
+    padding: 7px 10px;
+    min-width:300px;
+    color:#1d3557;
+    background-color:#457b9d;
+    border-radius: 5px;
+    font-weight:500;
+    letter-spacing: 1px;
+}
+.student span{
+    color:#a8dadc;
+    font-weight:300;
+    letter-spacing: 1px;
+}
+
+.display-count{
+    /* height:10vh; */
+    display:flex;
+    justify-content: center;
+}
+
+.count{
+    /* width:50%; */
+    
+    padding:7px 100px;
+    font-weight:500;
+    letter-spacing: 1px;
+    color:#1d3557;
+    background-color:#457b9d;
+    border-radius: 5px;
+}
+.count span{
+    color:#a8dadc;
+    font-weight:300;
+    letter-spacing: 1px;
+}
